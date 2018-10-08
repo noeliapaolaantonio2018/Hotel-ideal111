@@ -22,7 +22,7 @@ import java.util.logging.Logger;
  */
 public class Test {
     public static void main(String...arg){
-        String url ="jdbc:mysql://localhost/universidad";
+        String url ="jdbc:mysql://localhost/hotelideal1";
         String usuario = "root";
         String password ="";
         Connection conexion;

@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package javaapplication1.accesobasedatos;
 
 import proyectojava.modelo.Conexion;
@@ -11,21 +7,14 @@ import java.text.ParseException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-/**
- *
- * @author alejo
- */
 public class AccesoABaseDeDatos {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws ParseException {
         
         Conexion conexion;
  
         try {
-            conexion = new Conexion("jdbc:mysql://localhost/prueba", "root", "");
+            conexion = new Conexion("jdbc:mysql://localhost/hotelideal1", "root", "");
             HuespedData huespedData = new HuespedData(conexion);
             
             
